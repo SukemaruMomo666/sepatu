@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body class="font-sans antialiased text-black bg-white selection:bg-black selection:text-white pb-20">
+<body class="font-sans antialiased text-black bg-white selection:bg-black selection:text-white pb-20 overflow-x-hidden">
 
     <!-- Navbar -->
     <nav x-data="{ open: false }" class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md border-b border-gray-200 z-50 transition-all duration-300">
@@ -72,16 +72,16 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/50"></div>
         
         <!-- Content -->
-        <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 mt-16">
-            <h1 class="text-white font-heading text-5xl sm:text-7xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl">
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 mt-16 w-full">
+            <h1 class="text-white font-heading text-6xl sm:text-8xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl w-full break-words">
                 Langkah Sang <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Pemenang</span>
             </h1>
-            <p class="mt-6 text-white/90 text-sm sm:text-lg max-w-2xl font-medium tracking-wide uppercase">
+            <p class="mt-6 text-white/90 text-sm sm:text-lg max-w-2xl font-medium tracking-wide uppercase px-2">
                 Toko Sepatu & Apparel Terbaik dari Subang untuk Indonesia.
             </p>
-            <div class="mt-10 flex gap-4">
-                <a href="#good-deals" class="bg-white text-black font-heading text-xl uppercase px-10 py-4 hover:bg-gray-200 transition-colors transform hover:-translate-y-1">Belanja Sekarang</a>
-                <a href="#" class="bg-transparent border-2 border-white text-white font-heading text-xl uppercase px-10 py-4 hover:bg-white hover:text-black transition-colors transform hover:-translate-y-1">Lihat Koleksi</a>
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 w-full max-w-md mx-auto sm:w-auto">
+                <a href="#good-deals" class="bg-white text-black font-heading text-lg sm:text-xl uppercase px-8 py-4 hover:bg-gray-200 transition-colors transform hover:-translate-y-1 text-center w-full sm:w-auto">Belanja Sekarang</a>
+                <a href="#" class="bg-transparent border-2 border-white text-white font-heading text-lg sm:text-xl uppercase px-8 py-4 hover:bg-white hover:text-black transition-colors transform hover:-translate-y-1 text-center w-full sm:w-auto">Lihat Koleksi</a>
             </div>
         </div>
     </div>
