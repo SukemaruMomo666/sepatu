@@ -64,7 +64,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <div class="relative w-full h-[85vh] mt-20 bg-gray-900 overflow-hidden group">
+    <div class="relative w-full h-[85vh] mt-16 sm:mt-20 bg-gray-900 overflow-hidden group">
         <!-- Background Image -->
         <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=2070&auto=format&fit=crop" alt="Hero Shoes" class="w-full h-full object-cover object-center opacity-80 transition-transform duration-700 group-hover:scale-105">
         
@@ -73,7 +73,7 @@
         
         <!-- Content -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 mt-16">
-            <h1 class="text-white font-heading text-6xl sm:text-8xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl">
+            <h1 class="text-white font-heading text-5xl sm:text-7xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl">
                 Langkah Sang <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Pemenang</span>
             </h1>
             <p class="mt-6 text-white/90 text-sm sm:text-lg max-w-2xl font-medium tracking-wide uppercase">
@@ -258,7 +258,7 @@
     </footer>
 
     <!-- Mobile Bottom Navigation (App-like feel) -->
-    <div class="sm:hidden fixed bottom-0 left-0 right-0 bg-black text-white h-16 flex justify-around items-center z-50 rounded-t-3xl border-t border-gray-800 shadow-[0_-5px_20px_rgba(0,0,0,0.3)]">
+    <div class="sm:hidden fixed bottom-0 left-0 right-0 bg-black text-white h-16 pb-[env(safe-area-inset-bottom)] box-content flex justify-around items-center z-50 rounded-t-3xl border-t border-gray-800 shadow-[0_-5px_20px_rgba(0,0,0,0.3)]">
         <a href="/" class="flex flex-col items-center justify-center w-full h-full text-white">
             <svg class="w-6 h-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
         </a>
