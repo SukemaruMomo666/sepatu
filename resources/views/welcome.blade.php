@@ -12,7 +12,7 @@
     <!-- Navbar -->
     <nav x-data="{ open: false }" class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md border-b border-gray-200 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
+            <div class="flex justify-between h-16 sm:h-20 items-center">
                 <!-- Mobile menu button -->
                 <div class="flex items-center sm:hidden">
                     <button @click="open = !open" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
@@ -24,8 +24,8 @@
                 
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center justify-center flex-1 sm:justify-start">
-                    <a href="#" class="font-heading text-3xl tracking-wide uppercase flex items-center gap-2">
-                        <span class="w-10 h-10 bg-black text-white rounded flex items-center justify-center text-2xl pb-1">M</span>
+                    <a href="#" class="font-heading text-xl sm:text-3xl tracking-wide uppercase flex items-center gap-2 sm:gap-2">
+                        <span class="w-8 h-8 sm:w-10 sm:h-10 bg-black text-white rounded flex items-center justify-center text-xl sm:text-2xl pb-1">M</span>
                         MOMOKICK
                     </a>
                 </div>
@@ -116,11 +116,12 @@
     </div>
 
     <!-- Designed for the bold -->
-    <div class="w-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-800 via-black to-black text-white text-center py-24 sm:py-32 my-10 relative overflow-hidden flex items-center justify-center">
-        <!-- Overlay Pattern -->
-        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
+    <div class="w-full bg-black text-white text-center py-24 sm:py-32 my-10 relative overflow-hidden flex items-center justify-center">
+        <!-- Background Image -->
+        <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-50" alt="Dark Texture">
+        <div class="absolute inset-0 bg-black/40"></div>
         
-        <h2 class="relative z-10 font-heading text-[2.5rem] leading-[0.9] sm:text-6xl md:text-8xl lg:text-[8rem] tracking-tighter uppercase px-4 drop-shadow-2xl">Diciptakan Untuk<br>Para Pemberani.</h2>
+        <h2 class="relative z-10 font-heading text-4xl sm:text-6xl md:text-8xl lg:text-[8rem] tracking-tight sm:tracking-tighter uppercase px-6 drop-shadow-2xl">Diciptakan Untuk<br>Para Pemberani.</h2>
     </div>
 
     <!-- Good Deals Section -->
