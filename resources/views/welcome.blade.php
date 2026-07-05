@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth overflow-x-hidden">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,7 +73,7 @@
         
         <!-- Content -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 mt-16 w-full">
-            <h1 class="text-white font-heading text-6xl sm:text-8xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl w-full break-words">
+            <h1 class="text-white font-heading text-[12vw] sm:text-8xl md:text-9xl tracking-tight uppercase leading-none drop-shadow-2xl w-full break-words">
                 Langkah Sang <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Pemenang</span>
             </h1>
             <p class="mt-6 text-white/90 text-sm sm:text-lg max-w-2xl font-medium tracking-wide uppercase px-2">
