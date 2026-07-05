@@ -26,7 +26,7 @@
                 <div class="flex-shrink-0 flex items-center justify-center flex-1 sm:justify-start">
                     <a href="#" class="font-heading text-xl sm:text-3xl tracking-wide uppercase flex items-center gap-2 sm:gap-2">
                         <span class="w-8 h-8 sm:w-10 sm:h-10 bg-black text-white rounded flex items-center justify-center text-xl sm:text-2xl pb-1">M</span>
-                        MOMOKICK
+                        MOMOKICKS
                     </a>
                 </div>
 
